@@ -48,6 +48,7 @@ class App extends Component {
        
         <Switch>
           <Route path="/" exact component={Intro}/>
+          <Route path="/react/" component={Intro}/>
           <Route path="/projects/rock-paper-scissors" render={() => (
             <Project item="rock-paper-scissors" background='#0f1626' />
           )}/>
