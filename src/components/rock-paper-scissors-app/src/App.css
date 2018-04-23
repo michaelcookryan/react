@@ -1,0 +1,61 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  margin-top:12%;
+}
+.Game, .Game h1,.Game h2, .Game h3,.Game h4{
+  color:#efefef!important;
+}
+li img, button{
+    border: 3px solid #ab987a;
+    border-radius: 6px;
+}
+h1.lowestElement{
+  margin-top:60px;
+  margin-bottom:5px;
+}
+p.info{
+  margin-top:0;
+  margin-bottom:30px;
+  color:#ab987a;
+}
+button:active, button:hover{
+  background:#ab987a;
+  color:#f5f5f5;
+}
+button:focus {
+  outline:0;
+}
+h2.score{
+  width:160px;
+  margin:0 auto 10px;
+  text-align: right;
+}
+ .Scoreboard{
+  margin-bottom:40px;
+}
+.intro-area{
+  background: rgba(0, 0, 0, 0.3);
+}
+.Intro-copy{
+  width:60%;
+  max-width:1200px;
+  margin:0 auto;
+  color:#f5f5f5;
+}
+.Intro-copy h1{
+  text-transform: uppercase;
+  color:#f5f5f5;
+  font-size: 2.8em;
+  margin-bottom: 40px;
+}
+.Intro-copy p{
+  max-width:820px;
+  font-size: 1.3em;
+  margin: 0 auto;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

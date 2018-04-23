@@ -1,0 +1,53 @@
+
+.Future-Section{
+  width:90%;
+  margin:0 auto;
+}
+.Future-Outlooks{
+  list-style-type: none;
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+  background: linear-gradient(#FF5733, yellow,#FF5733);
+  margin: 0;
+  padding: 0;
+}
+.Days-Ahead{
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+  background: #fafafa;
+  width: 140px;
+  margin-top:10px;
+}
+.Days-Ahead h2{
+  margin-bottom:0;
+}
+.Days-Ahead p{
+  margin-top:0;
+}
+.Outlook-title{
+  text-align:left;
+  width:90%;
+  margin:4% auto 1%;
+}
+.City-Info{
+  width:90%;
+  margin:0 auto;
+}
+.City-Info h1{
+  font-size:2.4em;
+}
+.Day-header{
+  padding:1% 0;
+  color:#fff;
+  background:#60DEF1;
+  border-radius: 0 0 8px 8px;
+}
+.Day-body{
+  padding:0 10%;
+}
+

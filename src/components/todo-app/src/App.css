@@ -1,0 +1,33 @@
+
+ul{
+  list-style-type:none;
+}
+.theToDoList li{
+  text-align:left;
+  margin-left:20px;
+  padding:18px 20px 0;
+  border-radius:6px;
+  margin-bottom:3px;
+}
+input, button{
+  font-size: 18px;
+  padding:4px 20px;
+}
+input{
+  width:300px;
+}
+button.add{
+  margin-left:10px;
+}
+button.add:active, button.add:hover{
+  background:#ff533d;
+  color:#f5f5f5;
+}
+button.add:focus {
+  outline:0;
+}
+.DisplayList input{
+  width: auto;
+  margin-right:20px;
+}
+
