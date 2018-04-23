@@ -16,7 +16,7 @@ class App extends Component {
         <header className="App-header">        
         <ul className="Main-Nav">
           <li id="App-mainTitle">
-              <NavLink to="/"><h1>React Projects</h1></NavLink>
+              <NavLink to="/react/"><h1>React Projects</h1></NavLink>
               <p>by Michael Ryan</p>
             </li>
             <li id="Link-rps">
@@ -47,7 +47,7 @@ class App extends Component {
         </header>
        
         <Switch>
-          <Route path="/" exact component={Intro}/>
+          <Route path="/react/" exact component={Intro}/>
           <Route path="/projects/rock-paper-scissors" render={() => (
             <Project item="rock-paper-scissors" background='#0f1626' />
           )}/>
