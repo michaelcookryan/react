@@ -92,7 +92,6 @@ footer p{
   margin:0;
   -webkit-margin-before:0;
 }
-
 @media screen and (min-width:320px) and (max-width:480px){
   .App-header {
     height: 100px;
@@ -115,4 +114,8 @@ footer p{
   .Intro-copy h1{
     font-size: 1.8em;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9a57f3df3c2117aad383291434075fc6b272a67a
